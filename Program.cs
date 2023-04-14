@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace FinalWork {
+    public class Program {
+        public static void Main(string[] args) {
+            MenuView mv = new MenuView();
+            mv.run();
+        }
+    }
+}
